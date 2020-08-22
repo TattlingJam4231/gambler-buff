@@ -1,5 +1,5 @@
 {
-"name" : "Gambler Buff",
+"name" : "Gambler Buff Developer",
 "description" : "Buffs the Gambler perk deck.",
 "author" : "Oryo",
 "image" : "oryo.png",
