@@ -41,7 +41,7 @@ function PlayerManager:add_gambler_crit_stack()
 	local expire_time = Application:time() + PlayerManager:upgrade_value_by_level("temporary", "loose_ammo_crit_bonus", 2, 5)
 	
 	self.just_lucky = (crit_value == 7) and self.just_lucky + 1 or 0
-	self.gambler_jackpot = (self.just_lucky == 3) and 7 or 0
+	self.gambler_jackpot = (self.just_lucky >= 3) and 7 or 0
 	if self.gambler_jackpot == 7 then
 		self.jackpot_expire_time = Application:time() + PlayerManager:upgrade_value_by_level("temporary", "loose_ammo_crit_bonus", 4, 5)
 	end
