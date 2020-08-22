@@ -8,7 +8,7 @@
 	{
 		"identifier" : "TattlingJam4231GamblerBuff",
 		"host" : {
-			"meta" : "https://github.com/TattlingJam4231/gambler-buff/raw/master/Gambler%20Buff/meta.json"
+			"meta" : "https://github.com/TattlingJam4231/gambler-buff/raw/master/Gambler_Buff/meta.json"
 		}
 	}
 ],
