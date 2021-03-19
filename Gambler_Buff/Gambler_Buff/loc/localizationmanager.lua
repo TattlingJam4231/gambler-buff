@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "Gambler Buff Developer Localization", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "Gambler Buff Localization", function(loc)
 	LocalizationManager:add_localized_strings({
         ["menu_deck10_1_desc"] = 	"Ammo packs you pick up also yield Medical Supplies.\n\n" ..
 									"Medical Supplies:\n" ..
