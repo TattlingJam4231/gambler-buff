@@ -1,7 +1,9 @@
 {
 "name" : "Gambler Buff",
 "description" : "Buffs the Gambler perk deck.",
-"author" : "Oryo",
+"author" : "TattlingJam",
+"image" : "oryo.png",
+"color" : "0.86 0.40 0.92",
 "version" : "1.0",
 "blt_version" : 2,
 "updates" : [
@@ -14,31 +16,30 @@
 ],
  
 "hooks" : [
+	{
+		"hook_id" 		: "lib/tweak_data/skilltreetweakdata",
+		"script_path" 	: "hooks/skilltreetweakdata.lua"
+	},
 
-{
-"hook_id" : "lib/tweak_data/skilltreetweakdata",
-"script_path" : "hooks/skilltreetweakdata.lua"
-},
+	{
+		"hook_id" 		: "lib/tweak_data/upgradestweakdata",
+		"script_path" 	: "hooks/upgradestweakdata.lua"
+	},
 
-{
-"hook_id" : "lib/tweak_data/upgradestweakdata",
-"script_path" : "hooks/upgradestweakdata.lua"
-},
+	{
+		"hook_id" 		: "lib/units/pickups/ammoclip",
+		"script_path" 	: "hooks/ammoclip.lua"
+	},
 
-{
-"hook_id" : "lib/units/pickups/ammoclip",
-"script_path" : "hooks/ammoclip.lua"
-},
+	{
+		"hook_id" 		: "lib/managers/playermanager",
+		"script_path" 	: "hooks/playermanager.lua"
+	},
 
-{
-"hook_id" : "lib/managers/playermanager",
-"script_path" : "hooks/playermanager.lua"
-},
-
-{
-"hook_id"	: "lib/managers/localizationmanager",
- "script_path" : "loc/localizationmanager.lua" 
-}
+	{
+		"hook_id"		: "lib/managers/localizationmanager",
+		"script_path" 	: "loc/localizationmanager.lua" 
+	}
 
 ]
  
